@@ -6,3 +6,9 @@
   border: 1px solid black;
   height: 150px;
 }
+
+#button {
+  padding: 20px;
+  margin: 0 auto;
+  text-align: center;
+}
