@@ -1,14 +1,62 @@
+
+/********body********/
+
+body {
+  background: url('http://amagico.com/images/img9/outer-space-stars-hd-background-wallpaper-59.jpg');
+  background-size: 150%;
+}
+
+h1 {
+  color: white;
+  font-size: 42px;
+}
+
+.message {
+  padding: 10px;
+  color: white;
+  font-size: 30px;
+}
+
+/********Grid********/
+
 #board {
   margin-top: 10px;
 }
 
+
 .box {
-  border: 1px solid black;
+  border: 1px solid white;
   height: 150px;
 }
+
+/********players********/
+
+.Kitty {
+  background: url('http://i.giphy.com/74k1youGFe0Ug.gif');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  font-size: 0px;
+}
+
+.Doggy {
+  background: url('https://media.giphy.com/media/eJEBj42FrdMzu/giphy.gif');
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-size: 0px;
+}
+
+/********Reset button********/
 
 #button {
   padding: 20px;
   margin: 0 auto;
   text-align: center;
+}
+
+
+#reset {
+  background-color: turquoise;
+  color: indigo;
+  font-size: 24px;
+  font-weight: 400;
 }
